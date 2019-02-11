@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+img{
+    height:400px;
+    width:500px;
+}
+
+
+.btn{
+    display: inline-block;
+    background-color:  palevioletred;
+    font-size: 1em;
+    color: lightyellow;
+    margin: 1em;
+    padding: 0.25em 1em;
+    border: 2px solid palevioletred;
+    border-radius: 3px;
+}
