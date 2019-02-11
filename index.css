@@ -3,20 +3,36 @@
     margin: 0;
     padding:0;
 }
-
-img{
-    height:400px;
-    width:500px;
+body{
+    background:#eee;
 }
 
+#content{
+    background: #fff;
+    padding: 20px;
+    padding-top: 0;
+    color:#444;
+    margin: 0 auto;
+    overflow: hidden;
+    max-height: 1470px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
 
-.btn{
-    display: inline-block;
-    background-color:  palevioletred;
-    font-size: 1em;
-    color: lightyellow;
-    margin: 1em;
-    padding: 0.25em 1em;
-    border: 2px solid palevioletred;
-    border-radius: 3px;
+#content.open{
+    max-height: 10000px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#show-more{
+    background: #1594e5;
+    color: #fff;
+    display: block;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
 }
